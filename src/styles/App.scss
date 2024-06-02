@@ -1,0 +1,67 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 450px;
+  }
+  
+  .todo-list h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+
+  .todo-list div {
+    height: 100%;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .input-group button {
+    width: 25%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .tasks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  
